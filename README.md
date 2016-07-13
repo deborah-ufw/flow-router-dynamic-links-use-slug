@@ -11,6 +11,6 @@ I used <a href="https://robomongo.org/">RoboMongo</a> to manipulate the original
 
 ###Some Meteor versions need to have "check" package added
 
-If you are confronted with error "ReferenceError: check is not defined", make sure you add the "check" package to Meteor.
+Some versions of Meteor include the "check" package and some don't. If you are confronted with error "ReferenceError: check is not defined", make sure you add the "check" package to Meteor.
 
 **$ meteor add check**
