@@ -8,3 +8,9 @@ This is a revised version of the very simple example Kadira app found <a href="h
 - links and router use slug (pretty URL) instead of _id
 
 I used <a href="https://robomongo.org/">RoboMongo</a> to manipulate the original database, and removed the code that pre-populated a single item. 
+
+###Some Meteor versions need to have "check" package added
+
+If you are confronted with error "ReferenceError: check is not defined", make sure you add the "check" package to Meteor.
+
+**$ meteor add check**
